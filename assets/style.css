@@ -1,0 +1,113 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Enriqueta|Great+Vibes|Roboto|Sanchez|Satisfy&display=swap');
+
+body {
+   background-image: url(.//images/boardwalk.jpg);
+   background-repeat: no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   padding-top: 100px;
+   margin-top: 30px;
+   font-family: 'Enriqueta', serif;
+
+   
+}
+
+
+
+.navbar {
+
+    background-color: rgb(42, 54, 78);
+    font-family: 'Roboto', sans-serif;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+   
+}
+
+.card-header {
+    width: 100% !important;
+    background-color: rgb(42, 54, 78);
+    color: white;
+}
+
+.jumbotron {
+    background-color: rgb(42, 54, 78);
+    color: white;
+    font-family: 'Satisfy', cursive;
+    border: solid 15px white !important;
+    
+}
+
+#slogan {
+    font-family: 'Enriqueta', serif;
+}
+
+.navbar-brand {
+     font-family: 'Satisfy', cursive;
+     color: white !important;
+     font-size: 35px;
+     font-weight: bold;
+
+}
+
+
+.thumbnail {
+    height: 250px !important;
+    width: 300px !important;
+    border:  solid 5px white;
+}
+
+form {
+     font-family: 'Enriqueta', serif;
+}
+
+#map {
+   width: 500px;
+   height: 500px;
+   border: solid 5px white;
+
+}
+
+#hours {
+    color: white;
+    font-family: 'Enriqueta', serif;
+}
+
+
+
+
+footer { 
+
+    color: white !important;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(42, 54, 78);
+    position:fixed;
+    left: 0;
+    bottom:0;
+    height:50px;
+    width:100%;
+    text-align: center !important;
+    overflow: hidden;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url(https://media.istockphoto.com/illustrations/light-blue-abstract-background-of-stone-wall-illustration-id665098636?k=6&m=665098636&s=612x612&w=0&h=HzHXMS3QF6U4lXCH1kErTE4jTii-LBEspvoXVwmZZZw=);
+  }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Bayside Thrift Shop Ltd</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="animated fadeInLeft fast navbar navbar-expand-lg navbar-light sticky-top mb-5">
+            <a class='navbar-brand' href="index.html">Bayside Thrift</a>
+            <div class="">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href=about.html>About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href=contact.html>Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href=gallery.html>Gallery</a>
+                    </li>
+                </ul>
+            </div>
+            <img class='justify-content-end' src="assets/images/bargain.png" height="50" width="50" alt="">
+
+        </nav>
+
+        <div class="row  mx-auto mb-3 d-flex justify-content-center">
+            <div class="jumbotron rounded animated fadeInDown fast mx-4 col-6">
+                <h1 class="h2 text-center">Contact Us</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input onfocus="this.value=''" type="name" class="form-control" id="name" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input onfocus="this.value=''" type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea onfocus="this.value=''" class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <input id='submit'class="btn btn-primary mx-1" type="submit" value="Submit">
+                    <button class="btn btn-primary mx-1" type="reset"> Clear</button>
+                </form>
+            </div>
+            <div class="float-right mx-4  animated fadeInUp fast">
+                <div id="map"></div>
+            </div>
+
+        </div>
+
+        <div class="row justify-content-center animated fadeInLeft fast">
+            <div id='hours' class="jumbotron">
+                <P>Address: 14402 Northern Blvd, Flushing, NY 11354</P>
+                <p>Monday</p>
+                <p>Tuesday</p>
+                <p>Wednesday</p>
+                <p>Thursday</p>
+                <p>Friday</p>
+                <P>Saturday</P>
+                <p>Sunday</p>
+            </div>
+        </div>
+      
+
+
+        <script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: { lat: -34.397, lng: 150.644 },
+                    zoom: 8
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXaRmd6kEGCAcWOeZ3YgL0ZyO0Mrnj4ys&callback=initMap"
+            async defer></script>
+
+
+
+
+        <!--         
+
+        <div class="row d-flex justify-content-center my-5 mx-auto animated fadeInLeft fast ">
+            <img class='thumbnail p-2 my-3 mx-3' src="assets/images/retro.jpg">
+            <img class='thumbnail p-2 my-3 mx-3' src="assets/images/clothes.jpg">
+            <img class='thumbnail p-2 my-3 mx-3' src="assets/images/donate.jpg">
+            <img class='thumbnail p-2 my-3 mx-3' src="assets/images/tax.jpg ">
+        </div> -->
+
+
+
+    </div>
+
+
+
+    <!-- Boostrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <!-- app.js connection -->
+    <script src="assets/app.js"></script>
+</body>
+
+<div class="container-fluid">
+    <footer class="animated fadeInRight fast text-center text-white mt-3">
+        <p class="text-center p-3"> Bayside Thrift Shop Ltd. &copy Copyright 2019</p>
+    </footer>
+</div>
+
+</html>
