@@ -65,8 +65,19 @@ body {
     border:  solid 5px white;
 }
 
+figcaption {
+    color: white;
+    font-weight: bold;
+    text-align: center !important;
+    font-family: 'Satisfy', cursive;
+    font-size: 22px;
+    
+
+}
+
 form {
      font-family: 'Enriqueta', serif;
+     
 }
 
 #map {
