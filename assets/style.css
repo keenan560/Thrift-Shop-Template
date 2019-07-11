@@ -57,6 +57,18 @@ body {
      font-weight: bold;
 
 }
+/* .nav-link:focus {
+    color: yellow !important;
+} */
+
+.nav-link:hover {
+    color: yellow!important;
+}
+
+.list-group-item:hover {
+    background-color: yellow !important;
+    color: rgb(42, 54, 78) !important
+}
 
 
 .thumbnail {
@@ -64,6 +76,14 @@ body {
     width: 300px !important;
     border:  solid 5px white;
 }
+
+.thumbnail:hover {
+    border: solid 5px yellow;
+    height: 300px !important;
+    width: 350px !important;
+}
+
+
 
 figcaption {
     color: white;
