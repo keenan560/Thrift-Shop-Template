@@ -62,11 +62,11 @@ body {
 } */
 
 .nav-link:hover {
-    color: yellow!important;
+    color: palegoldenrod!important;
 }
 
 .list-group-item:hover {
-    background-color: yellow !important;
+    background-color: palegoldenrod !important;
     color: rgb(42, 54, 78) !important
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .thumbnail:hover {
-    border: solid 5px yellow;
+    border: solid 5px palegoldenrod;
     height: 300px !important;
     width: 350px !important;
 }
