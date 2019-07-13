@@ -142,6 +142,8 @@ footer {
   body {
     /* The file size of this background image is 93% smaller
        to improve page load speed on mobile internet connections */
-    background-image: url(.//images/boardwalk.jpg);
+    background-image: url(.//images/blue-bricks.jpeg);
+    
   }
+
 }

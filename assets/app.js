@@ -1,6 +1,6 @@
 var mapKey = "AIzaSyCXaRmd6kEGCAcWOeZ3YgL0ZyO0Mrnj4ys";
 
-$(document).on("click", "#submit", function(event){
+$(document).on("click", "#submit", function (event) {
     event.preventDefault();
 
     var name = $("#name").val().trim();
@@ -14,9 +14,21 @@ $(document).on("click", "#submit", function(event){
     };
 
     console.log(contactRequest);
- 
-   
 
 })
 
+$(document).on("click", "#bargain", function (event) {
+    event.preventDefault();
 
+    $("#bargain").removeClass("shake");
+    $("#bargain").addClass("hinge");
+
+});
+
+$(document).on("click", "#hanger", function(event) {
+    event.preventDefault();
+
+    $("#hanger").removeClass("shake");
+    $("#hanger").addClass("flip");
+
+})
